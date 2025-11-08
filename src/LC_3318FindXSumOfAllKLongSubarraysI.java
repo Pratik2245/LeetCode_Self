@@ -2,8 +2,8 @@ import java.util.*;
 
 public class LC_3318FindXSumOfAllKLongSubarraysI {
     public static void main(String[] args) {
-        int k=6,x=2;
-        int[] arr={1,1,2,2,3,4,2,3};
+        int k=2,x=2;
+        int[] arr={3,8,7,8,7,5};
         int ans[]=findXSum(arr,k,x);
         System.out.println(Arrays.toString(ans));
     }
